@@ -1,0 +1,710 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>MEDIA OPTIMIZATION OF SWEETPOTATO VINE MULTIPLICATION</h:title>
+    <model>
+      <itext>
+        <translation lang="English">
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/endtime:label">
+            <value>TIME OF END OF SURVEY</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/10:label">
+            <value>Abnormal/retarded shoot growth</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_1:label">
+            <value>Plant 1</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/DAP:label">
+            <value>Please select the number of days after planting</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp:label">
+            <value>Vine length at harvest</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_2:label">
+            <value>Plant 2</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_3:label">
+            <value>Plant 3</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/13:label">
+            <value>Thick curled young leaves</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp:label">
+            <value>Vine internodal length</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/4:label">
+            <value>Distorted new leaves &amp; necrotic tips/edges</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_2_length:label">
+            <value>Leaf 2 length</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_2:label">
+            <value>Plant 2</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/3:label">
+            <value>Entire leaf chlorosis spreading to entire plant</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_5_length:label">
+            <value>Leaf 5 length</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/pot_no:label">
+            <value>Scan the QR code for this pot's number</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp:label">
+            <value>Petiole lenth</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/device_phone_num:label">
+            <value>PHONE NUMBER OF THE DEVICE</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest:label">
+            <value>Harvest</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_5:label">
+            <value>Plant 5</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_3:label">
+            <value>Plant 3</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/99:label">
+            <value>No symptoms</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/subscriber_id:label">
+            <value>SUBSCRIBER ID</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/treat:label">
+            <value>treat</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_weight:label">
+            <value>Vine Weight at harvest per pot</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_4:label">
+            <value>Plant 4</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/14:label">
+            <value>Others, specify</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency:label">
+            <value>Nutrient deficiency symptoms</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/1:label">
+            <value>Chlorosis in older leaves, then younger tissue</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_5:label">
+            <value>Plant 5</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id:label">
+            <value>Pot Id</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_4:label">
+            <value>Plant 4</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_3:label">
+            <value>Plant 3</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/node_cuttings:label">
+            <value>Please input the number of 3 node cuttings per vine for each plant</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp:label">
+            <value>Girth size</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_5:label">
+            <value>Plant 5</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_2:label">
+            <value>Plant 2</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/girth_size:label">
+            <value>Please input measurements of the Girth Size for each plant</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_2_width:label">
+            <value>Leaf 2 width</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting:label">
+            <value><output value=" /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/DAP "/>days after planting</value></text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_1:label">
+            <value>Plant 1</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_1:label">
+            <value>Plant 1</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/lateral_branches:label">
+            <value>Please input the number of Lateral Branches for each plant</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/no_of_plants_pp:label">
+            <value>Number of plants in pot <output value=" /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/pot_no "/></value></text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_1:label">
+            <value>Plant 1</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_2:label">
+            <value>Plant 2</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_2:label">
+            <value>Plant 2</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_5:label">
+            <value>Plant 5</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_1:label">
+            <value>Plant 1</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/5:label">
+            <value>Dark green plants with red or purple color/lower leaves</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_4_width:label">
+            <value>Leaf 4 width</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_4:label">
+            <value>Plant 4</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp:label">
+            <value>Leaf size</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_4:label">
+            <value>Plant 4</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_5_width:label">
+            <value>Leaf 5 width</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/vine_length:label">
+            <value>Please input the mesurements of the Vine Length for each plant</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/7:label">
+            <value>Misshapen/poor or no growth in apical meristem</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/rep_no:label">
+            <value>Rep No</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp:label">
+            <value>Lateral branches</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/sim_id:label">
+            <value>SEMI CARD</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_3:label">
+            <value>Plant 3</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_5:label">
+            <value>Plant 5</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/other_deficiencies_and_comments/other_nutrient_deficiency:label">
+            <value>Please specify other deficiency symptoms</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_5:label">
+            <value>Plant 5</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_3:label">
+            <value>Plant 3</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_4:label">
+            <value>Plant 4</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/petiole_length:label">
+            <value>Please input measurements of the Petiole Length for each plant</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_3:label">
+            <value>Plant 3</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/12:label">
+            <value>Stunted growth</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_4_length:label">
+            <value>Leaf 4 length</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/6:label">
+            <value>Premature senenscence of old leaves</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot:label">
+            <value>Measurements for pot number <output value=" /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/pot_no "/></value></text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/2:label">
+            <value>Dying of terminal buds/shoot die back</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/DAP/30:label">
+            <value>30</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_3_length:label">
+            <value>Leaf 3 length</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp:label">
+            <value>Node Cutting</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/8:label">
+            <value>Hooked terminal buds</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/11:label">
+            <value>Brittle stems/petioles with developed cracks</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/9:label">
+            <value>chlorosis of middle &amp; younger leaves</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/device_id:label">
+            <value>DEVICE ID</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/other_deficiencies_and_comments/end_note:label">
+            <value>End of pot <output value=" /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/pot_no "/> measurements. Optional comments</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_1:label">
+            <value>Plant 1</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/internodal_length:label">
+            <value>Please input the Vine Internodal Length for each plant</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_1_width:label">
+            <value>Leaf 1 width</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/DAP/45:label">
+            <value>45</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_1_length:label">
+            <value>Leaf 1 length</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_4:label">
+            <value>Plant 4</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_2:label">
+            <value>Plant 2</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_3_width:label">
+            <value>Leaf 3 width</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_size:label">
+            <value>Please input the measurements of length and width for each leaf</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/DAP_note:label">
+            <value>These are measurements for <output value=" /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/DAP "/> days after planting</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/start_time:label">
+            <value>TIME INTERVIEW STARTED</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2 id="MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_1">
+          <start_time/>
+          <device_id/>
+          <subscriber_id/>
+          <sim_id/>
+          <device_phone_num/>
+          <DAP/>
+          <days_after_planting>
+            <DAP_note/>
+            <Pot_Id>
+              <pot_no/>
+              <treat/>
+              <rep_no/>
+            </Pot_Id>
+            <pot>
+              <no_of_plants_pp/>
+              <internodal_length_grp>
+                <internodal_length/>
+                <VIL_plant_1/>
+                <VIL_plant_2/>
+                <VIL_plant_3/>
+                <VIL_plant_4/>
+                <VIL_plant_5/>
+              </internodal_length_grp>
+              <leaf_size_grp>
+                <leaf_size/>
+                <leaf_1_length/>
+                <leaf_1_width/>
+                <leaf_2_length/>
+                <leaf_2_width/>
+                <leaf_3_length/>
+                <leaf_3_width/>
+                <leaf_4_length/>
+                <leaf_4_width/>
+                <leaf_5_length/>
+                <leaf_5_width/>
+              </leaf_size_grp>
+              <petiole_length_grp>
+                <petiole_length/>
+                <PL_plant_1/>
+                <PL_plant_2/>
+                <PL_plant_3/>
+                <PL_plant_4/>
+                <PL_plant_5/>
+              </petiole_length_grp>
+              <girth_size_grp>
+                <girth_size/>
+                <GS_plant_1/>
+                <GS_plant_2/>
+                <GS_plant_3/>
+                <GS_plant_4/>
+                <GS_plant_5/>
+              </girth_size_grp>
+              <lateral_branches_grp>
+                <lateral_branches/>
+                <LB_plant_1/>
+                <LB_plant_2/>
+                <LB_plant_3/>
+                <LB_plant_4/>
+                <LB_plant_5/>
+              </lateral_branches_grp>
+              <harvest>
+                <vine_length_grp>
+                  <vine_length/>
+                  <VL_plant_1/>
+                  <VL_plant_2/>
+                  <VL_plant_3/>
+                  <VL_plant_4/>
+                  <VL_plant_5/>
+                </vine_length_grp>
+                <node_cuttings_grp>
+                  <node_cuttings/>
+                  <NC_plant_1/>
+                  <NC_plant_2/>
+                  <NC_plant_3/>
+                  <NC_plant_4/>
+                  <NC_plant_5/>
+                </node_cuttings_grp>
+                <vine_weight/>
+              </harvest>
+              <nutrient_deficiency/>
+              <other_deficiencies_and_comments>
+                <other_nutrient_deficiency/>
+                <end_note/>
+              </other_deficiencies_and_comments>
+            </pot>
+          </days_after_planting>
+          <endtime/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/start_time" type="dateTime"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/device_id" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/subscriber_id" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/sim_id" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/device_phone_num" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/DAP" required="true()" type="select1"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/DAP_note" readonly="true()" type="string"/>
+      <bind constraint="(.&gt;0) and (.&lt;=200)" jr:constraintMsg="Please scan for a valid pot number" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/pot_no" required="true()" type="barcode"/>
+      <bind calculate="pulldata('pots', 'treat', 'pot_number_key',  /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/pot_no )" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/treat" type="string"/>
+      <bind calculate="pulldata('pots', 'rep_number', 'pot_number_key',  /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/pot_no )" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/rep_no" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/no_of_plants_pp" required="true()" type="int"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/internodal_length" readonly="true()" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_1" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_2" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_3" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_4" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_5" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_size" readonly="true()" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_1_length" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_1_width" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_2_length" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_2_width" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_3_length" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_3_width" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_4_length" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_4_width" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_5_length" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_5_width" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/petiole_length" readonly="true()" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_1" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_2" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_3" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_4" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_5" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/girth_size" readonly="true()" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_1" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_2" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_3" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_4" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_5" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/lateral_branches" readonly="true()" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_1" required="true()" type="int"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_2" required="true()" type="int"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_3" required="true()" type="int"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_4" required="true()" type="int"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_5" required="true()" type="int"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/vine_length" readonly="true()" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_1" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_2" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_3" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_4" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_5" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/node_cuttings" readonly="true()" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_1" required="true()" type="int"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_2" required="true()" type="int"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_3" required="true()" type="int"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_4" required="true()" type="int"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_5" required="true()" type="int"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_weight" relevant=" /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/DAP  = 45" required="true()" type="decimal"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency" required="true()" type="select"/>
+      <bind constraint="(not(selected(., '99') and count-selected(.) &gt;1))" jr:constraintMsg="Cannot select &quot;No Symptoms&quot; and other responses." nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/other_deficiencies_and_comments/other_nutrient_deficiency" relevant="selected( /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency ,&quot;14&quot;)" required="true()" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/other_deficiencies_and_comments/end_note" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/endtime" required="true()" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="theme-grid">
+    <select1 ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/DAP">
+      <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/DAP:label')"/>
+      <item>
+        <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/DAP/30:label')"/>
+        <value>30</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/DAP/45:label')"/>
+        <value>45</value>
+      </item>
+    </select1>
+    <group ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting">
+      <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting:label')"/>
+      <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/DAP_note">
+        <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/DAP_note:label')"/>
+      </input>
+      <group appearance="field-list" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id">
+        <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id:label')"/>
+        <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/pot_no">
+          <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/Pot_Id/pot_no:label')"/>
+        </input>
+      </group>
+      <group ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot">
+        <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot:label')"/>
+        <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/no_of_plants_pp">
+          <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/no_of_plants_pp:label')"/>
+        </input>
+        <group appearance="field-list" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp">
+          <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp:label')"/>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/internodal_length">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/internodal_length:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_1">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_1:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_2">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_2:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_3">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_3:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_4">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_4:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_5">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/internodal_length_grp/VIL_plant_5:label')"/>
+          </input>
+        </group>
+        <group appearance="field-list" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp">
+          <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp:label')"/>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_size">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_size:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_1_length">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_1_length:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_1_width">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_1_width:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_2_length">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_2_length:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_2_width">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_2_width:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_3_length">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_3_length:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_3_width">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_3_width:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_4_length">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_4_length:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_4_width">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_4_width:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_5_length">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_5_length:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_5_width">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/leaf_size_grp/leaf_5_width:label')"/>
+          </input>
+        </group>
+        <group appearance="field-list" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp">
+          <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp:label')"/>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/petiole_length">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/petiole_length:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_1">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_1:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_2">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_2:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_3">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_3:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_4">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_4:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_5">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/petiole_length_grp/PL_plant_5:label')"/>
+          </input>
+        </group>
+        <group appearance="field-list" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp">
+          <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp:label')"/>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/girth_size">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/girth_size:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_1">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_1:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_2">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_2:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_3">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_3:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_4">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_4:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_5">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/girth_size_grp/GS_plant_5:label')"/>
+          </input>
+        </group>
+        <group appearance="field-list" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp">
+          <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp:label')"/>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/lateral_branches">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/lateral_branches:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_1">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_1:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_2">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_2:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_3">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_3:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_4">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_4:label')"/>
+          </input>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_5">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/lateral_branches_grp/LB_plant_5:label')"/>
+          </input>
+        </group>
+        <group ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest">
+          <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest:label')"/>
+          <group appearance="field-list" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp:label')"/>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/vine_length">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/vine_length:label')"/>
+            </input>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_1">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_1:label')"/>
+            </input>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_2">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_2:label')"/>
+            </input>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_3">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_3:label')"/>
+            </input>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_4">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_4:label')"/>
+            </input>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_5">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_length_grp/VL_plant_5:label')"/>
+            </input>
+          </group>
+          <group appearance="field-list" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp:label')"/>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/node_cuttings">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/node_cuttings:label')"/>
+            </input>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_1">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_1:label')"/>
+            </input>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_2">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_2:label')"/>
+            </input>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_3">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_3:label')"/>
+            </input>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_4">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_4:label')"/>
+            </input>
+            <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_5">
+              <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/node_cuttings_grp/NC_plant_5:label')"/>
+            </input>
+          </group>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_weight">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/harvest/vine_weight:label')"/>
+          </input>
+        </group>
+        <select ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency">
+          <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency:label')"/>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/3:label')"/>
+            <value>3</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/4:label')"/>
+            <value>4</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/5:label')"/>
+            <value>5</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/6:label')"/>
+            <value>6</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/7:label')"/>
+            <value>7</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/8:label')"/>
+            <value>8</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/9:label')"/>
+            <value>9</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/10:label')"/>
+            <value>10</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/11:label')"/>
+            <value>11</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/12:label')"/>
+            <value>12</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/13:label')"/>
+            <value>13</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/14:label')"/>
+            <value>14</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/nutrient_deficiency/99:label')"/>
+            <value>99</value>
+          </item>
+        </select>
+        <group appearance="field-list" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/other_deficiencies_and_comments">
+          <input appearance="multiline" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/other_deficiencies_and_comments/other_nutrient_deficiency">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/other_deficiencies_and_comments/other_nutrient_deficiency:label')"/>
+          </input>
+          <input appearance="multiline" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/other_deficiencies_and_comments/end_note">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_VER_2/days_after_planting/pot/other_deficiencies_and_comments/end_note:label')"/>
+          </input>
+        </group>
+      </group>
+    </group>
+  </h:body>
+</h:html>

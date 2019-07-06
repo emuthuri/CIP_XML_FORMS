@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>MEDIA OPTIMIZATION OF SWEETPOTATO VINE MULTIPLICATION FOR VINE DRY WEIGHT</h:title>
+    <model>
+      <itext>
+        <translation lang="English">
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/start_time:label">
+            <value>TIME INTERVIEW STARTED</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots:label">
+            <value>From how many pots would you like to measure the weight?</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/vine_dry_weight:label">
+            <value>Please input the Vine Dry Weight for pot <output value=" /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id/pot_no "/></value></text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/subscriber_id:label">
+            <value>SUBSCRIBER ID</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/device_phone_num:label">
+            <value>PHONE NUMBER OF THE DEVICE</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id/treat:label">
+            <value>treat</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/sim_id:label">
+            <value>SEMI CARD</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id/pot_no:label">
+            <value>Scan the QR code for this pot's number</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/endtime:label">
+            <value>TIME OF END OF SURVEY</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/device_id:label">
+            <value>DEVICE ID</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id:label">
+            <value>Pot Id</value>
+          </text>
+          <text id="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id/rep_no:label">
+            <value>Rep No</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1 id="MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1">
+          <start_time/>
+          <device_id/>
+          <subscriber_id/>
+          <sim_id/>
+          <device_phone_num/>
+          <no_of_pots/>
+          <no_of_pots_rpt_count/>
+          <no_of_pots_rpt jr:template="">
+            <Pot_Id>
+              <pot_no/>
+              <treat/>
+              <rep_no/>
+            </Pot_Id>
+            <vine_dry_weight/>
+          </no_of_pots_rpt>
+          <endtime/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/start_time" type="dateTime"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/device_id" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/subscriber_id" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/sim_id" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/device_phone_num" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots" required="true()" type="int"/>
+      <bind calculate=" /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots " nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt_count" readonly="true()" type="string"/>
+      <bind constraint="(.&gt;0) and (.&lt;=200)" jr:constraintMsg="Please scan for a valid pot number" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id/pot_no" required="true()" type="barcode"/>
+      <bind calculate="pulldata('pots', 'treat', 'pot_number_key',  /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id/pot_no )" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id/treat" type="string"/>
+      <bind calculate="pulldata('pots', 'rep_number', 'pot_number_key',  /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id/pot_no )" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id/rep_no" type="string"/>
+      <bind nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/vine_dry_weight" required="true()" type="decimal"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/endtime" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="theme-grid">
+    <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots">
+      <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots:label')"/>
+    </input>
+    <group ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt">
+      <label></label>
+      <repeat jr:count=" /MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt_count " nodeset="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt">
+        <group appearance="field-list" ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id">
+          <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id:label')"/>
+          <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id/pot_no">
+            <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/Pot_Id/pot_no:label')"/>
+          </input>
+        </group>
+        <input ref="/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/vine_dry_weight">
+          <label ref="jr:itext('/MEDIA_OPTIMIZATION_OF_SWEETPOTATO_VINE_MULTIPLICATION_FOR_VINE_DRY_WEIGHT_VER_1/no_of_pots_rpt/vine_dry_weight:label')"/>
+        </input>
+      </repeat>
+    </group>
+  </h:body>
+</h:html>

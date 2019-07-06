@@ -1,0 +1,526 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>INFORMAL MARKET QUESTIONNIARE VER 2</h:title>
+    <model>
+      <instance>
+        <INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template id="INFORMAL_MARKET_QST_VER_2">
+          <starttime/>
+          <endtime/>
+          <deviceid/>
+          <subscriberid/>
+          <simid/>
+          <devicephonenum/>
+          <INTRODUCTION>
+            <NOTE_SHEET_FILLING_POINT/>
+          </INTRODUCTION>
+          <imq_b>2018-06-27 00:00:00</imq_b>
+          <imq_c>35</imq_c>
+          <imq_d/>
+          <imq_dother/>
+          <imq_e/>
+          <imq_f/>
+          <imq_g/>
+          <imq_h/>
+          <imq_1/>
+          <imq_1other/>
+          <imq_sp_units/>
+          <imq_sp_units_other/>
+          <imq_2a>0</imq_2a>
+          <imq_2b/>
+          <imq_2c/>
+          <imq_3/>
+          <imq_3cother/>
+          <imq_4/>
+          <imq_5/>
+          <imq_5a/>
+          <TASTING/>
+          <imq_6/>
+          <imq_7/>
+          <imq_8/>
+          <imq_9/>
+          <imq_10/>
+          <imq_10other/>
+          <imq_11/>
+          <imq_12/>
+          <imq_12other/>
+          <imq_13/>
+          <imq_13other/>
+          <imq_i/>
+          <imq_iother/>
+          <imq_14/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/starttime" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/endtime" type="dateTime"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/subscriberid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/simid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/devicephonenum" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/INTRODUCTION/NOTE_SHEET_FILLING_POINT" readonly="true()" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_b" required="true()" type="date"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_c" required="true()" type="select1"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_d" required="true()" type="select"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_dother" relevant="selected( /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_d , '5')" required="true()" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_e" type="int"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_f" required="true()" type="time"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_g" required="true()" type="select1"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_h" required="true()" type="select1"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1" required="true()" type="select1"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1other" relevant=" /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1 =1" required="true()" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_sp_units" relevant=" /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1 =1" type="select1"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_sp_units_other" relevant=" /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_sp_units =5" required="true()" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_2a" relevant="( /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1 =1) and ( /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_sp_units  &lt; 3)" required="true()" type="decimal"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_2b" relevant=" /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1 =1" required="true()" type="decimal"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_2c" relevant="( /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1 =1) and ( /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_sp_units  = 5)" required="true()" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_3" relevant=" /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1 =1" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_3cother" relevant=" /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_sp_units  = 5" required="true()" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_4" relevant=" /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1 =1" type="select"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_5" relevant=" /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1 =0" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_5a" type="select1"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/TASTING" readonly="true()" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_6" type="select1"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_7" type="select1"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_8" relevant=" /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_7  &lt; 3" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_9" type="select1"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_10" relevant=" /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_9 =1" type="select"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_10other" relevant="selected( /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_10 , '11')" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_11" type="select1"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_12" type="select"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_12other" relevant="selected( /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_12 , '6')" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_13" type="select"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_13other" relevant="selected( /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_13 , '10')" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_i" type="select1"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_iother" relevant=" /INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_i =6" type="string"/>
+      <bind nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_14" type="select1"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="theme-grid">
+    <group appearance="field-list" ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/INTRODUCTION">
+      <label>GENERAL INFORMATION</label>
+      <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/INTRODUCTION/NOTE_SHEET_FILLING_POINT">
+        <label>Hello my name is Joyce. Would it be okay to ask you a few questions about sweetpotato for research we are doing?</label>
+      </input>
+    </group>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_b">
+      <label>Date</label>
+    </input>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_c">
+      <label>Market</label>
+      <item>
+        <label>Kangemi</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>City Park</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>Muthurwa</label>
+        <value>3</value>
+      </item>
+    </select1>
+    <select ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_d">
+      <label>d. What kinds of SP were available in the market today?</label>
+      <item>
+        <label>White Fleshed</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>Yellow Fleshed</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>Orange Fleshed</label>
+        <value>3</value>
+      </item>
+      <item>
+        <label>Purple Fleshed</label>
+        <value>4</value>
+      </item>
+      <item>
+        <label>Other</label>
+        <value>5</value>
+      </item>
+    </select>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_dother">
+      <label>d. What kinds of SP were available in the market today?</label>
+      <hint>Specify other</hint>
+    </input>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_e">
+      <label>e. How many sweetpotato sellers are present today?</label>
+    </input>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_f">
+      <label>f. Time of interview:</label>
+    </input>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_g">
+      <label>g. Gender:</label>
+      <item>
+        <label>Male</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>Female</label>
+        <value>0</value>
+      </item>
+    </select1>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_h">
+      <label>h. Approximate age groups:</label>
+      <item>
+        <label>&lt;20 years</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>20-35 years</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>36-55 years</label>
+        <value>3</value>
+      </item>
+      <item>
+        <label>Above 55</label>
+        <value>4</value>
+      </item>
+    </select1>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1">
+      <label>1. How often do you buy sweetpotato</label>
+      <item>
+        <label>Never</label>
+        <value>0</value>
+      </item>
+      <item>
+        <label>Other</label>
+        <value>1</value>
+      </item>
+    </select1>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_1other">
+      <label>1. How often do you buy sweetpotato (Other)</label>
+      <hint>Specify other</hint>
+    </input>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_sp_units">
+      <label>What units do you use when buying your sweetpotato?</label>
+      <item>
+        <label>KGs</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>Number of roots</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>Pile</label>
+        <value>3</value>
+      </item>
+      <item>
+        <label>Bag</label>
+        <value>4</value>
+      </item>
+      <item>
+        <label>Other</label>
+        <value>5</value>
+      </item>
+    </select1>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_sp_units_other">
+      <label>What other unit do you use when buying your sweetpotato?</label>
+    </input>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_2a">
+      <label>2. What amount of sweetpotato do you typically purchase each time?</label>
+    </input>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_2b">
+      <label>2. What value in KES of sweetpotato do you typically purchase each time?</label>
+    </input>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_2c">
+      <label>2. What other value of sweetpotato do you typically purchase each time?</label>
+    </input>
+    <input appearance="multiline" ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_3">
+      <label>3. How do you normally prepare this sweetpotato?</label>
+    </input>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_3cother">
+      <label>3. What other amount of sweetpotato do you typically purchase each time?</label>
+    </input>
+    <select ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_4">
+      <label>4. Which meals do you normally eat or snack sweetpotato</label>
+      <item>
+        <label>Breakfast</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>Morning snack</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>Lunch</label>
+        <value>3</value>
+      </item>
+      <item>
+        <label>afternoon snack</label>
+        <value>4</value>
+      </item>
+      <item>
+        <label>Dinner</label>
+        <value>5</value>
+      </item>
+      <item>
+        <label>Evening snack</label>
+        <value>6</value>
+      </item>
+    </select>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_5">
+      <label>5. If you never buy sweetpotato, why?</label>
+    </input>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_5a">
+      <label>5a. Do you think sweetpotato is a healthy food?</label>
+      <item>
+        <label>No</label>
+        <value>0</value>
+      </item>
+      <item>
+        <label>Yes</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>Depends how it is prepared</label>
+        <value>2</value>
+      </item>
+    </select1>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/TASTING">
+      <label>Now we are going to ask you to taste these two types of sweetpotato</label>
+    </input>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_6">
+      <label>6. Which looks better?</label>
+      <item>
+        <label>Orange-fleshed</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>Yellow Fleshed</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>Same</label>
+        <value>3</value>
+      </item>
+    </select1>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_7">
+      <label>7. Which tastes better?</label>
+      <item>
+        <label>Orange-fleshed</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>Yellow Fleshed</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>Same</label>
+        <value>3</value>
+      </item>
+    </select1>
+    <input ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_8">
+      <label>8. Why does this taste better?</label>
+      <hint>Probe for details if answer is sweet or tamu..</hint>
+    </input>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_9">
+      <label>9. Before today, have you ever heard of OFSP?</label>
+      <item>
+        <label>Yes</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>0</value>
+      </item>
+    </select1>
+    <select ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_10">
+      <label>10. If yes, what was/are the source of your information?</label>
+      <hint>Select as many as apply</hint>
+      <item>
+        <label>1 - Radio</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>2 - TV</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>3 - Newspaper</label>
+        <value>3</value>
+      </item>
+      <item>
+        <label>4 - Internet</label>
+        <value>4</value>
+      </item>
+      <item>
+        <label>5 - Health service</label>
+        <value>5</value>
+      </item>
+      <item>
+        <label>6 - Agricultural / Extension Service</label>
+        <value>6</value>
+      </item>
+      <item>
+        <label>7 - School</label>
+        <value>7</value>
+      </item>
+      <item>
+        <label>8 - Friend</label>
+        <value>8</value>
+      </item>
+      <item>
+        <label>9 - Relative</label>
+        <value>9</value>
+      </item>
+      <item>
+        <label>10 - First time I heard was today</label>
+        <value>10</value>
+      </item>
+      <item>
+        <label>11 - Other</label>
+        <value>11</value>
+      </item>
+    </select>
+    <input appearance="multiline" ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_10other">
+      <label>10. If yes, what was/are the source of your information?</label>
+      <hint>Specify other</hint>
+    </input>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_11">
+      <label>11. Have you seen this OFSP before?</label>
+      <item>
+        <label>Yes</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>0</value>
+      </item>
+    </select1>
+    <select ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_12">
+      <label>12. What do you know about this type of sweetpotato (OFSP)?</label>
+      <item>
+        <label>Nothing</label>
+        <value>0</value>
+      </item>
+      <item>
+        <label>Good for health</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>Helps prevent disease</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>Assures good eyesight</label>
+        <value>3</value>
+      </item>
+      <item>
+        <label>Good energy</label>
+        <value>4</value>
+      </item>
+      <item>
+        <label>Male power</label>
+        <value>5</value>
+      </item>
+      <item>
+        <label>Other</label>
+        <value>6</value>
+      </item>
+    </select>
+    <input appearance="multiline" ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_12other">
+      <label>12. What do you know about this type of sweetpotato (OFSP)? (Other)</label>
+      <hint>Specify other</hint>
+    </input>
+    <select appearance="multiline" ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_13">
+      <label>13. What other information would you like to know about OFSP?</label>
+      <item>
+        <label>Nutrition information</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>How to prepare different dishes</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>where to get vines to plant</label>
+        <value>3</value>
+      </item>
+      <item>
+        <label>Is it a GMO</label>
+        <value>4</value>
+      </item>
+      <item>
+        <label>Where does it come from</label>
+        <value>5</value>
+      </item>
+      <item>
+        <label>Why is it so expensive</label>
+        <value>6</value>
+      </item>
+      <item>
+        <label>How long does it store</label>
+        <value>7</value>
+      </item>
+      <item>
+        <label>Is it bad for people with diabetes</label>
+        <value>8</value>
+      </item>
+      <item>
+        <label>Is it good for people with diseases</label>
+        <value>9</value>
+      </item>
+      <item>
+        <label>Other specify</label>
+        <value>10</value>
+      </item>
+    </select>
+    <input appearance="multiline" ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_13other">
+      <label>13. What other information would you like to know about OFSP?</label>
+      <hint>Specify other</hint>
+    </input>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_i">
+      <label>i. Ethnic background</label>
+      <item>
+        <label>Black - Kenyan</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>black - other</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>White</label>
+        <value>3</value>
+      </item>
+      <item>
+        <label>Indian heritage</label>
+        <value>4</value>
+      </item>
+      <item>
+        <label>Chinese geritage</label>
+        <value>5</value>
+      </item>
+      <item>
+        <label>Other heritage</label>
+        <value>6</value>
+      </item>
+    </select1>
+    <input appearance="multiline" ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_iother">
+      <label>i. Ethnic background</label>
+    </input>
+    <select1 ref="/INFORMAL_MARKET_QUESTIONNIARE_VER2_ODK_Template/imq_14">
+      <label>14. Did they then buy OFSP</label>
+      <item>
+        <label>Yes</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>0</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>

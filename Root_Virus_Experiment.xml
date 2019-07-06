@@ -1,0 +1,1612 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>FIELD EVALUATION OF BEGOMO VIRUS, SWEETPOTATO FEATHERY MOTTLE VIRUS AND SWEETPOTATO CHLOROTIC STUNT VIRUS ON SWEETPOTATO YIELD IN KENYA: VER 1</h:title>
+    <model>
+      <itext>
+        <translation lang="English">
+          <text id="/Root_Virus_Experiment/vir_eval_grp/grp_01/rep_number:label">
+            <value>How many plots do you want to take readings from?</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_tail_diameter_8:label">
+            <value>Estimation of tail Diameter 8</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/8:label">
+            <value>8</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp_comment:label">
+            <value>End of plot <output value=" /Root_Virus_Experiment/root_eval_grp/institution/plot_1 "/> <output value=" /Root_Virus_Experiment/root_eval_grp/institution/plot_info_1 "/>. Evaluation comments</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4:label">
+            <value>Instance 4 score</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5:label">
+            <value>Instance 5 score</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_2:label">
+            <value>Total number of root counting per plant (2)</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_middle_diameter_7:label">
+            <value>Estimation of middle Diameter 7</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_length_2:label">
+            <value>Estimation of Length 2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor:label">
+            <value>Please enter the Vine Vigor</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_info_1:label">
+            <value>Scan plot QR code for plot number</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_neck_diameter_7:label">
+            <value>Estimation of Neck Diameter 7</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_neck_diameter_8:label">
+            <value>Estimation of Neck Diameter 8</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_tail_diameter_4:label">
+            <value>Estimation of tail Diameter 4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/comments:label">
+            <value>Comments</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days/30:label">
+            <value>30 days</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id:label">
+            <value>These entries are for plot <output value=" /Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot "/> <output value=" /Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_info "/></value></text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_neck_diameter_2:label">
+            <value>Estimation of Neck Diameter 2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/plant_6_note:label">
+            <value>Plant 6</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1:label">
+            <value>Instance 1 score</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_length_6:label">
+            <value>Estimation of Length 6</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days:label">
+            <value>Please input the number of days after planting</value>
+          </text>
+          <text id="/Root_Virus_Experiment/start_time:label">
+            <value>TIME INTERVIEW STARTED</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp:label">
+            <value>Virus Evaluation</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/subscriber_id:label">
+            <value>SUBSCRIBER ID</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/6:label">
+            <value>6</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_8:label">
+            <value>Total number of root counting per plant (8)</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_tail_diameter_9:label">
+            <value>Estimation of tail Diameter 9</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/grp_02/roots_experiment/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_middle_diameter_2:label">
+            <value>Estimation of middle Diameter 2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/geopoint:label">
+            <value>This is a geopoint input</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_10:label">
+            <value>Total number of root counting per plant (10)</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot:label">
+            <value>Please input the Plot Number</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/root_count_plot:label">
+            <value>Total number of root counting per plot</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/grp_02/roots_experiment/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9:label">
+            <value>Instance 9 score</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores:label">
+            <value>SPVD scores</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/6:label">
+            <value>6</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/stand_count:label">
+            <value>Please enter the Stand Count</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_length_5:label">
+            <value>Estimation of Length 5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp:label">
+            <value>Root count for 10 instances</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/plant_3_note:label">
+            <value>Plant 3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/9:label">
+            <value>9</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_7:label">
+            <value>Total number of root counting per plant (7)</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/stand_count_pp:label">
+            <value>Stand count at harvest per plot</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_neck_diameter_4:label">
+            <value>Estimation of Neck Diameter 4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_neck_diameter_6:label">
+            <value>Estimation of Neck Diameter 6</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp:label">
+            <value>Storage root size estimation of Length and Diameter</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_tail_diameter_5:label">
+            <value>Estimation of tail Diameter 5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_4:label">
+            <value>Total number of root counting per plant (4)</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_virus_select/root:label">
+            <value>Root</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_1:label">
+            <value>Please input the Plot Number</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_length_1:label">
+            <value>Estimation of Length 1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_neck_diameter_5:label">
+            <value>Estimation of Neck Diameter 5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/grp_02/root_experiment_survey:label">
+            <value>Root yield evaluation</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_length_8:label">
+            <value>Estimation of Length 8</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/plant_10_note:label">
+            <value>Plant 10</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/device_phone_num:label">
+            <value>PHONE NUMBER OF THE DEVICE</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/grp_01/virus_experiment/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/plant_5_note:label">
+            <value>Plant 5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/9:label">
+            <value>9</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/7:label">
+            <value>7</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/Plants_planted_pp:label">
+            <value>Plants planted counting number per plot</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_middle_diameter_8:label">
+            <value>Estimation of middle Diameter 8</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2:label">
+            <value>Instance 2 score</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_tail_diameter_10:label">
+            <value>Estimation of tail Diameter 10</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_virus_select:label">
+            <value>Is this a Virus or Root yield evaluation?</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_tail_diameter_1:label">
+            <value>Estimation of tail Diameter 1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_neck_diameter_9:label">
+            <value>Estimation of Neck Diameter 9</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/grp_01/virus_experiment/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/marketable_storage_roots:label">
+            <value>Number of marketable storage roots</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7:label">
+            <value>Instance 7 score</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot:label">
+            <value><output value=" /Root_Virus_Experiment/vir_eval_grp/grp_01/number_days "/>days after planting per plot</value></text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_neck_diameter_10:label">
+            <value>Estimation of Neck Diameter 10</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/grp_01/virus_experiment:label">
+            <value>Is this the FIRST or SECOND virus evaluation?</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/7:label">
+            <value>7</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/grp_01/vir_eval:label">
+            <value>Virus Evaluation</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_tail_diameter_2:label">
+            <value>Estimation of tail Diameter 2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/vine_weight_pp:label">
+            <value>Weight of vines measuring kg per plot</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_middle_diameter_6:label">
+            <value>Estimation of middle Diameter 6</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10:label">
+            <value>Plant 10</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_length_7:label">
+            <value>Estimation of Length 7</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days/60:label">
+            <value>60 days</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_middle_diameter_1:label">
+            <value>Estimation of middle Diameter 1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3:label">
+            <value>Plant 3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7:label">
+            <value>Plant 7</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_length_9:label">
+            <value>Estimation of Length 9</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/column_set_1:label">
+            <value>SPVD scores per plot</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4:label">
+            <value>Plant 4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8:label">
+            <value>Instance 8 score</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/non-marketable_storage_roots:label">
+            <value>Number of non-marketable storage roots counting number per plot</value>
+          </text>
+          <text id="/Root_Virus_Experiment/device_id:label">
+            <value>DEVICE ID</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/plant_7_note:label">
+            <value>Plant 7</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/plant_4_note:label">
+            <value>Plant 4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/plot_comments:label">
+            <value>End of plot <output value=" /Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot "/> <output value=" /Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_info "/> evaluation. Optional comments</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/8:label">
+            <value>8</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution:label">
+            <value>Institution</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8:label">
+            <value>Plant 8</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3:label">
+            <value>Instance 3 score</value>
+          </text>
+          <text id="/Root_Virus_Experiment/endtime:label">
+            <value>Time of end of interview</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2:label">
+            <value>Plant 2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/plant_1_note:label">
+            <value>Plant 1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_middle_diameter_10:label">
+            <value>Estimation of middle Diameter 10</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/plant_8_note:label">
+            <value>Plant 8</value>
+          </text>
+          <text id="/Root_Virus_Experiment/sim_id:label">
+            <value>SEMI CARD</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/non-marketable_root_weight:label">
+            <value>Weight of non-marketable storage roots measuring kg per plot</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days/90:label">
+            <value>90 days</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_6:label">
+            <value>Total number of root counting per plant (6)</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days/120:label">
+            <value>120 days</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5:label">
+            <value>Plant 5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_middle_diameter_5:label">
+            <value>Estimation of middle Diameter 5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_9:label">
+            <value>Total number of root counting per plant (9)</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number:label">
+            <value>These entries are for plot <output value=" /Root_Virus_Experiment/root_eval_grp/institution/plot_1 "/> <output value=" /Root_Virus_Experiment/root_eval_grp/institution/plot_info_1 "/></value></text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/Storage_estimation_LD:label">
+            <value>Storage root size estimation of Length and Diameter 10 plants</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6:label">
+            <value>Instance 6 score</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_virus_select/virus:label">
+            <value>Virus</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_neck_diameter_1:label">
+            <value>Estimation of Neck Diameter 1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/plant_9_note:label">
+            <value>Plant 9</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity:label">
+            <value>Severity</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_middle_diameter_4:label">
+            <value>Estimation of middle Diameter 4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_tail_diameter_3:label">
+            <value>Estimation of tail Diameter 3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt:label">
+            <value>Plot number <output value=" /Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot "/></value></text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_1:label">
+            <value>Total number of root counting per plant (1)</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9:label">
+            <value>Plant 9</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_middle_diameter_3:label">
+            <value>Estimation of middle Diameter 3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10:label">
+            <value>Instance 10 score</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/incidence:label">
+            <value>Percentage of incidence</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_length_4:label">
+            <value>Estimation of Length 4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/marketable_root_weight:label">
+            <value>Weight of marketable storage roots measuring kg per plot</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_tail_diameter_7:label">
+            <value>Estimation of tail Diameter 7</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/grp_02/roots_experiment:label">
+            <value>Is this the FIRST or SECOND root yield experiment?</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_3:label">
+            <value>Total number of root counting per plant (3)</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/plant_2_note:label">
+            <value>Plant 2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_length_10:label">
+            <value>Estimation of Length 10</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1/4:label">
+            <value>4</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_middle_diameter_9:label">
+            <value>Estimation of middle Diameter 9</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/storage_roots_pp:label">
+            <value>Plants with storage roots counting number per plot</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/column_set_2:label">
+            <value>SPVD scores per plant. Plant severity (1-5; 1=Clean, 5=Very severe)</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_5:label">
+            <value>Total number of root counting per plant (5)</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_neck_diameter_3:label">
+            <value>Estimation of Neck Diameter 3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6:label">
+            <value>Plant 6</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/2:label">
+            <value>2</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2/5:label">
+            <value>5</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant:label">
+            <value><output value=" /Root_Virus_Experiment/vir_eval_grp/grp_01/number_days "/>days after planting per plant</value></text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_tail_diameter_6:label">
+            <value>Estimation of tail Diameter 6</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7/3:label">
+            <value>3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1:label">
+            <value>Plant 1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/grp_02/rep_number_01:label">
+            <value>How many plots do you want to take readings from?</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1/1:label">
+            <value>1</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_length_3:label">
+            <value>Estimation of Length 3</value>
+          </text>
+          <text id="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_info:label">
+            <value>Scan plot QR code for plot number</value>
+          </text>
+          <text id="/Root_Virus_Experiment/root_eval_grp:label">
+            <value>Root Evaluation</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <Root_Virus_Experiment id="BEGOMOVIRUS_SP_FEATHERY_MOTTLE_VIRUS_EVALUATION_VER_1">
+          <start_time/>
+          <device_id/>
+          <subscriber_id/>
+          <sim_id/>
+          <device_phone_num/>
+          <root_virus_select/>
+          <vir_eval_grp>
+            <grp_01>
+              <vir_eval/>
+              <virus_experiment/>
+              <number_days/>
+              <rep_number/>
+            </grp_01>
+            <entry_rpt_count/>
+            <entry_rpt jr:template="">
+              <plot_info/>
+              <plot/>
+              <rep/>
+              <instn/>
+              <plot_id>
+                <stand_count/>
+                <vine_vigor/>
+                <spvd_scores>
+                  <per_plot>
+                    <column_set_1/>
+                    <incidence/>
+                    <severity/>
+                  </per_plot>
+                  <per_plant>
+                    <column_set_2/>
+                    <instance_1/>
+                    <instance_2/>
+                    <instance_3/>
+                    <instance_4/>
+                    <instance_5/>
+                    <instance_6/>
+                    <instance_7/>
+                    <instance_8/>
+                    <instance_9/>
+                    <instance_10/>
+                    <comments/>
+                  </per_plant>
+                  <plot_comments/>
+                </spvd_scores>
+              </plot_id>
+            </entry_rpt>
+          </vir_eval_grp>
+          <root_eval_grp>
+            <grp_02>
+              <root_experiment_survey/>
+              <roots_experiment/>
+              <rep_number_01/>
+            </grp_02>
+            <institution_count/>
+            <institution jr:template="">
+              <plot_info_1/>
+              <plot_1/>
+              <rep_1/>
+              <instn_1/>
+              <plot_number>
+                <grp_1>
+                  <Plants_planted_pp/>
+                  <stand_count_pp/>
+                  <storage_roots_pp/>
+                </grp_1>
+                <root_count_grp>
+                  <root_count_plant_1/>
+                  <root_count_plant_2/>
+                  <root_count_plant_3/>
+                  <root_count_plant_4/>
+                  <root_count_plant_5/>
+                  <root_count_plant_6/>
+                  <root_count_plant_7/>
+                  <root_count_plant_8/>
+                  <root_count_plant_9/>
+                  <root_count_plant_10/>
+                </root_count_grp>
+                <grp_2>
+                  <root_count_plot/>
+                  <marketable_storage_roots/>
+                  <non-marketable_storage_roots/>
+                  <marketable_root_weight/>
+                  <non-marketable_root_weight/>
+                </grp_2>
+                <size_estimation_grp>
+                  <Storage_estimation_LD/>
+                  <plant_1>
+                    <plant_1_note/>
+                    <root_size_length_1/>
+                    <root_size_neck_diameter_1/>
+                    <root_size_middle_diameter_1/>
+                    <root_size_tail_diameter_1/>
+                  </plant_1>
+                  <plant_2>
+                    <plant_2_note/>
+                    <root_size_length_2/>
+                    <root_size_neck_diameter_2/>
+                    <root_size_middle_diameter_2/>
+                    <root_size_tail_diameter_2/>
+                  </plant_2>
+                  <plant_3>
+                    <plant_3_note/>
+                    <root_size_length_3/>
+                    <root_size_neck_diameter_3/>
+                    <root_size_middle_diameter_3/>
+                    <root_size_tail_diameter_3/>
+                  </plant_3>
+                  <plant_4>
+                    <plant_4_note/>
+                    <root_size_length_4/>
+                    <root_size_neck_diameter_4/>
+                    <root_size_middle_diameter_4/>
+                    <root_size_tail_diameter_4/>
+                  </plant_4>
+                  <plant_5>
+                    <plant_5_note/>
+                    <root_size_length_5/>
+                    <root_size_neck_diameter_5/>
+                    <root_size_middle_diameter_5/>
+                    <root_size_tail_diameter_5/>
+                  </plant_5>
+                  <plant_6>
+                    <plant_6_note/>
+                    <root_size_length_6/>
+                    <root_size_neck_diameter_6/>
+                    <root_size_middle_diameter_6/>
+                    <root_size_tail_diameter_6/>
+                  </plant_6>
+                  <plant_7>
+                    <plant_7_note/>
+                    <root_size_length_7/>
+                    <root_size_neck_diameter_7/>
+                    <root_size_middle_diameter_7/>
+                    <root_size_tail_diameter_7/>
+                  </plant_7>
+                  <plant_8>
+                    <plant_8_note/>
+                    <root_size_length_8/>
+                    <root_size_neck_diameter_8/>
+                    <root_size_middle_diameter_8/>
+                    <root_size_tail_diameter_8/>
+                  </plant_8>
+                  <plant_9>
+                    <plant_9_note/>
+                    <root_size_length_9/>
+                    <root_size_neck_diameter_9/>
+                    <root_size_middle_diameter_9/>
+                    <root_size_tail_diameter_9/>
+                  </plant_9>
+                  <plant_10>
+                    <plant_10_note/>
+                    <root_size_length_10/>
+                    <root_size_neck_diameter_10/>
+                    <root_size_middle_diameter_10/>
+                    <root_size_tail_diameter_10/>
+                  </plant_10>
+                </size_estimation_grp>
+                <vine_weight_pp/>
+                <size_estimation_grp_comment/>
+              </plot_number>
+            </institution>
+          </root_eval_grp>
+          <geopoint/>
+          <endtime/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </Root_Virus_Experiment>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/Root_Virus_Experiment/start_time" type="dateTime"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/Root_Virus_Experiment/device_id" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/Root_Virus_Experiment/subscriber_id" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/Root_Virus_Experiment/sim_id" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/Root_Virus_Experiment/device_phone_num" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_virus_select" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp" relevant=" /Root_Virus_Experiment/root_virus_select ='virus'"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/grp_01/vir_eval" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/grp_01/virus_experiment" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/grp_01/rep_number" type="int"/>
+      <bind calculate=" /Root_Virus_Experiment/vir_eval_grp/grp_01/rep_number " nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt_count" readonly="true()" type="string"/>
+      <bind constraint="(.&lt;=48) and (.&gt;=1)" jr:constraintMsg="The scanned QR code does not match those in the plots database." nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_info" type="barcode"/>
+      <bind constraint="(.&lt;=48) and (.&gt;=1)" jr:constraintMsg="Invalid plot number" nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot" relevant=" /Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_info =&quot;&quot;" required="true()" type="int"/>
+      <bind calculate="pulldata('institution', 'rep', 'plot_key','  /Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot ')" nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/rep" type="string"/>
+      <bind calculate="pulldata('institution', 'instn_key', 'plot_key','  /Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot ')" nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/instn" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/stand_count" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/column_set_1" readonly="true()" type="string"/>
+      <bind constraint=".&lt;=100" jr:constraintMsg="Invalid percentage" nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/incidence" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/column_set_2" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/comments" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/plot_comments" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp" relevant=" /Root_Virus_Experiment/root_virus_select ='root'"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/grp_02/root_experiment_survey" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/grp_02/roots_experiment" required="true()" type="select1"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/grp_02/rep_number_01" type="int"/>
+      <bind calculate=" /Root_Virus_Experiment/root_eval_grp/grp_02/rep_number_01 " nodeset="/Root_Virus_Experiment/root_eval_grp/institution_count" readonly="true()" type="string"/>
+      <bind constraint="(.&lt;=48) and (.&gt;=1)" jr:constraintMsg="The scanned QR code does not match those in the plots database." nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_info_1" type="barcode"/>
+      <bind constraint="(.&lt;=48) and (.&gt;=1)" jr:constraintMsg="Invalid plot number" nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_1" relevant=" /Root_Virus_Experiment/root_eval_grp/institution/plot_info_1 =&quot;&quot;" required="true()" type="int"/>
+      <bind calculate="pulldata('institution', 'rep', 'plot_key','  /Root_Virus_Experiment/root_eval_grp/institution/plot_1 ')" nodeset="/Root_Virus_Experiment/root_eval_grp/institution/rep_1" type="string"/>
+      <bind calculate="pulldata('institution', 'instn_key', 'plot_key','  /Root_Virus_Experiment/root_eval_grp/institution/plot_1 ')" nodeset="/Root_Virus_Experiment/root_eval_grp/institution/instn_1" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/Plants_planted_pp" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/stand_count_pp" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/storage_roots_pp" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_1" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_2" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_3" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_4" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_5" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_6" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_7" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_8" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_9" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_10" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/root_count_plot" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/marketable_storage_roots" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/non-marketable_storage_roots" required="true()" type="int"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/marketable_root_weight" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/non-marketable_root_weight" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/Storage_estimation_LD" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/plant_1_note" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_length_1" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_neck_diameter_1" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_middle_diameter_1" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_tail_diameter_1" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/plant_2_note" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_length_2" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_neck_diameter_2" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_middle_diameter_2" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_tail_diameter_2" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/plant_3_note" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_length_3" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_neck_diameter_3" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_middle_diameter_3" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_tail_diameter_3" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/plant_4_note" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_length_4" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_neck_diameter_4" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_middle_diameter_4" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_tail_diameter_4" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/plant_5_note" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_length_5" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_neck_diameter_5" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_middle_diameter_5" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_tail_diameter_5" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/plant_6_note" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_length_6" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_neck_diameter_6" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_middle_diameter_6" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_tail_diameter_6" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/plant_7_note" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_length_7" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_neck_diameter_7" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_middle_diameter_7" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_tail_diameter_7" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/plant_8_note" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_length_8" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_neck_diameter_8" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_middle_diameter_8" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_tail_diameter_8" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/plant_9_note" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_length_9" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_neck_diameter_9" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_middle_diameter_9" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_tail_diameter_9" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/plant_10_note" readonly="true()" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_length_10" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_neck_diameter_10" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_middle_diameter_10" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_tail_diameter_10" required="true()" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/vine_weight_pp" type="decimal"/>
+      <bind nodeset="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp_comment" type="string"/>
+      <bind nodeset="/Root_Virus_Experiment/geopoint" required="true()" type="geopoint"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/Root_Virus_Experiment/endtime" required="true()" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/Root_Virus_Experiment/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="theme-grid">
+    <select1 ref="/Root_Virus_Experiment/root_virus_select">
+      <label ref="jr:itext('/Root_Virus_Experiment/root_virus_select:label')"/>
+      <item>
+        <label ref="jr:itext('/Root_Virus_Experiment/root_virus_select/root:label')"/>
+        <value>root</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/Root_Virus_Experiment/root_virus_select/virus:label')"/>
+        <value>virus</value>
+      </item>
+    </select1>
+    <group ref="/Root_Virus_Experiment/vir_eval_grp">
+      <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp:label')"/>
+      <group appearance="field-list" ref="/Root_Virus_Experiment/vir_eval_grp/grp_01">
+        <input ref="/Root_Virus_Experiment/vir_eval_grp/grp_01/vir_eval">
+          <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/grp_01/vir_eval:label')"/>
+        </input>
+        <select1 ref="/Root_Virus_Experiment/vir_eval_grp/grp_01/virus_experiment">
+          <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/grp_01/virus_experiment:label')"/>
+          <item>
+            <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/grp_01/virus_experiment/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/grp_01/virus_experiment/2:label')"/>
+            <value>2</value>
+          </item>
+        </select1>
+        <select1 ref="/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days">
+          <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days:label')"/>
+          <item>
+            <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days/30:label')"/>
+            <value>30</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days/60:label')"/>
+            <value>60</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days/90:label')"/>
+            <value>90</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/grp_01/number_days/120:label')"/>
+            <value>120</value>
+          </item>
+        </select1>
+        <input ref="/Root_Virus_Experiment/vir_eval_grp/grp_01/rep_number">
+          <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/grp_01/rep_number:label')"/>
+        </input>
+      </group>
+      <group ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt">
+        <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt:label')"/>
+        <repeat jr:count=" /Root_Virus_Experiment/vir_eval_grp/entry_rpt_count " nodeset="/Root_Virus_Experiment/vir_eval_grp/entry_rpt">
+          <input ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_info">
+            <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_info:label')"/>
+          </input>
+          <input ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot">
+            <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot:label')"/>
+          </input>
+          <group ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id">
+            <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id:label')"/>
+            <input ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/stand_count">
+              <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/stand_count:label')"/>
+            </input>
+            <select1 ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor">
+              <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor:label')"/>
+              <item>
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/1:label')"/>
+                <value>1</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/2:label')"/>
+                <value>2</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/3:label')"/>
+                <value>3</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/4:label')"/>
+                <value>4</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/5:label')"/>
+                <value>5</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/6:label')"/>
+                <value>6</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/7:label')"/>
+                <value>7</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/8:label')"/>
+                <value>8</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/vine_vigor/9:label')"/>
+                <value>9</value>
+              </item>
+            </select1>
+            <group ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores">
+              <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores:label')"/>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot">
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot:label')"/>
+                <input ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/column_set_1">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/column_set_1:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/incidence">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/incidence:label')"/>
+                </input>
+                <select1 ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity:label')"/>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/1:label')"/>
+                    <value>1</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/2:label')"/>
+                    <value>2</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/3:label')"/>
+                    <value>3</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/4:label')"/>
+                    <value>4</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/5:label')"/>
+                    <value>5</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/6:label')"/>
+                    <value>6</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/7:label')"/>
+                    <value>7</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/8:label')"/>
+                    <value>8</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plot/severity/9:label')"/>
+                    <value>9</value>
+                  </item>
+                </select1>
+              </group>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant">
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant:label')"/>
+                <input ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/column_set_2">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/column_set_2:label')"/>
+                </input>
+                <select1 appearance="minimal" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1:label')"/>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1/1:label')"/>
+                    <value>1</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1/2:label')"/>
+                    <value>2</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1/3:label')"/>
+                    <value>3</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1/4:label')"/>
+                    <value>4</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_1/5:label')"/>
+                    <value>5</value>
+                  </item>
+                </select1>
+                <select1 appearance="minimal" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2:label')"/>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2/1:label')"/>
+                    <value>1</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2/2:label')"/>
+                    <value>2</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2/3:label')"/>
+                    <value>3</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2/4:label')"/>
+                    <value>4</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_2/5:label')"/>
+                    <value>5</value>
+                  </item>
+                </select1>
+                <select1 appearance="minimal" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3:label')"/>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3/1:label')"/>
+                    <value>1</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3/2:label')"/>
+                    <value>2</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3/3:label')"/>
+                    <value>3</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3/4:label')"/>
+                    <value>4</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_3/5:label')"/>
+                    <value>5</value>
+                  </item>
+                </select1>
+                <select1 appearance="minimal" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4:label')"/>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4/1:label')"/>
+                    <value>1</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4/2:label')"/>
+                    <value>2</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4/3:label')"/>
+                    <value>3</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4/4:label')"/>
+                    <value>4</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_4/5:label')"/>
+                    <value>5</value>
+                  </item>
+                </select1>
+                <select1 appearance="minimal" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5:label')"/>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5/1:label')"/>
+                    <value>1</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5/2:label')"/>
+                    <value>2</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5/3:label')"/>
+                    <value>3</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5/4:label')"/>
+                    <value>4</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_5/5:label')"/>
+                    <value>5</value>
+                  </item>
+                </select1>
+                <select1 appearance="minimal" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6:label')"/>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6/1:label')"/>
+                    <value>1</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6/2:label')"/>
+                    <value>2</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6/3:label')"/>
+                    <value>3</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6/4:label')"/>
+                    <value>4</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_6/5:label')"/>
+                    <value>5</value>
+                  </item>
+                </select1>
+                <select1 appearance="minimal" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7:label')"/>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7/1:label')"/>
+                    <value>1</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7/2:label')"/>
+                    <value>2</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7/3:label')"/>
+                    <value>3</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7/4:label')"/>
+                    <value>4</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_7/5:label')"/>
+                    <value>5</value>
+                  </item>
+                </select1>
+                <select1 appearance="minimal" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8:label')"/>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8/1:label')"/>
+                    <value>1</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8/2:label')"/>
+                    <value>2</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8/3:label')"/>
+                    <value>3</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8/4:label')"/>
+                    <value>4</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_8/5:label')"/>
+                    <value>5</value>
+                  </item>
+                </select1>
+                <select1 appearance="minimal" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9:label')"/>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9/1:label')"/>
+                    <value>1</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9/2:label')"/>
+                    <value>2</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9/3:label')"/>
+                    <value>3</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9/4:label')"/>
+                    <value>4</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_9/5:label')"/>
+                    <value>5</value>
+                  </item>
+                </select1>
+                <select1 appearance="minimal" ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10:label')"/>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10/1:label')"/>
+                    <value>1</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10/2:label')"/>
+                    <value>2</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10/3:label')"/>
+                    <value>3</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10/4:label')"/>
+                    <value>4</value>
+                  </item>
+                  <item>
+                    <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/instance_10/5:label')"/>
+                    <value>5</value>
+                  </item>
+                </select1>
+                <input ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/comments">
+                  <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/per_plant/comments:label')"/>
+                </input>
+              </group>
+              <input ref="/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/plot_comments">
+                <label ref="jr:itext('/Root_Virus_Experiment/vir_eval_grp/entry_rpt/plot_id/spvd_scores/plot_comments:label')"/>
+              </input>
+            </group>
+          </group>
+        </repeat>
+      </group>
+    </group>
+    <group ref="/Root_Virus_Experiment/root_eval_grp">
+      <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp:label')"/>
+      <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/grp_02">
+        <input ref="/Root_Virus_Experiment/root_eval_grp/grp_02/root_experiment_survey">
+          <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/grp_02/root_experiment_survey:label')"/>
+        </input>
+        <select1 ref="/Root_Virus_Experiment/root_eval_grp/grp_02/roots_experiment">
+          <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/grp_02/roots_experiment:label')"/>
+          <item>
+            <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/grp_02/roots_experiment/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/grp_02/roots_experiment/2:label')"/>
+            <value>2</value>
+          </item>
+        </select1>
+        <input ref="/Root_Virus_Experiment/root_eval_grp/grp_02/rep_number_01">
+          <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/grp_02/rep_number_01:label')"/>
+        </input>
+      </group>
+      <group ref="/Root_Virus_Experiment/root_eval_grp/institution">
+        <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution:label')"/>
+        <repeat jr:count=" /Root_Virus_Experiment/root_eval_grp/institution_count " nodeset="/Root_Virus_Experiment/root_eval_grp/institution">
+          <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_info_1">
+            <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_info_1:label')"/>
+          </input>
+          <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_1">
+            <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_1:label')"/>
+          </input>
+          <group ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number">
+            <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number:label')"/>
+            <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1">
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/Plants_planted_pp">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/Plants_planted_pp:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/stand_count_pp">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/stand_count_pp:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/storage_roots_pp">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_1/storage_roots_pp:label')"/>
+              </input>
+            </group>
+            <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp">
+              <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp:label')"/>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_1">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_1:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_2">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_2:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_3">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_3:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_4">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_4:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_5">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_5:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_6">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_6:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_7">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_7:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_8">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_8:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_9">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_9:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_10">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/root_count_grp/root_count_plant_10:label')"/>
+              </input>
+            </group>
+            <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2">
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/root_count_plot">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/root_count_plot:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/marketable_storage_roots">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/marketable_storage_roots:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/non-marketable_storage_roots">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/non-marketable_storage_roots:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/marketable_root_weight">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/marketable_root_weight:label')"/>
+              </input>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/non-marketable_root_weight">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/grp_2/non-marketable_root_weight:label')"/>
+              </input>
+            </group>
+            <group ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp">
+              <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp:label')"/>
+              <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/Storage_estimation_LD">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/Storage_estimation_LD:label')"/>
+              </input>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1:label')"/>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/plant_1_note">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/plant_1_note:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_length_1">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_length_1:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_neck_diameter_1">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_neck_diameter_1:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_middle_diameter_1">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_middle_diameter_1:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_tail_diameter_1">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_1/root_size_tail_diameter_1:label')"/>
+                </input>
+              </group>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2:label')"/>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/plant_2_note">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/plant_2_note:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_length_2">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_length_2:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_neck_diameter_2">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_neck_diameter_2:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_middle_diameter_2">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_middle_diameter_2:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_tail_diameter_2">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_2/root_size_tail_diameter_2:label')"/>
+                </input>
+              </group>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3:label')"/>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/plant_3_note">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/plant_3_note:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_length_3">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_length_3:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_neck_diameter_3">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_neck_diameter_3:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_middle_diameter_3">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_middle_diameter_3:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_tail_diameter_3">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_3/root_size_tail_diameter_3:label')"/>
+                </input>
+              </group>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4:label')"/>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/plant_4_note">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/plant_4_note:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_length_4">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_length_4:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_neck_diameter_4">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_neck_diameter_4:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_middle_diameter_4">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_middle_diameter_4:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_tail_diameter_4">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_4/root_size_tail_diameter_4:label')"/>
+                </input>
+              </group>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5:label')"/>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/plant_5_note">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/plant_5_note:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_length_5">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_length_5:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_neck_diameter_5">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_neck_diameter_5:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_middle_diameter_5">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_middle_diameter_5:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_tail_diameter_5">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_5/root_size_tail_diameter_5:label')"/>
+                </input>
+              </group>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6:label')"/>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/plant_6_note">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/plant_6_note:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_length_6">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_length_6:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_neck_diameter_6">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_neck_diameter_6:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_middle_diameter_6">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_middle_diameter_6:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_tail_diameter_6">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_6/root_size_tail_diameter_6:label')"/>
+                </input>
+              </group>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7:label')"/>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/plant_7_note">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/plant_7_note:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_length_7">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_length_7:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_neck_diameter_7">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_neck_diameter_7:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_middle_diameter_7">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_middle_diameter_7:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_tail_diameter_7">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_7/root_size_tail_diameter_7:label')"/>
+                </input>
+              </group>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8:label')"/>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/plant_8_note">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/plant_8_note:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_length_8">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_length_8:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_neck_diameter_8">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_neck_diameter_8:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_middle_diameter_8">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_middle_diameter_8:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_tail_diameter_8">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_8/root_size_tail_diameter_8:label')"/>
+                </input>
+              </group>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9:label')"/>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/plant_9_note">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/plant_9_note:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_length_9">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_length_9:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_neck_diameter_9">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_neck_diameter_9:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_middle_diameter_9">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_middle_diameter_9:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_tail_diameter_9">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_9/root_size_tail_diameter_9:label')"/>
+                </input>
+              </group>
+              <group appearance="field-list" ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10">
+                <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10:label')"/>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/plant_10_note">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/plant_10_note:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_length_10">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_length_10:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_neck_diameter_10">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_neck_diameter_10:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_middle_diameter_10">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_middle_diameter_10:label')"/>
+                </input>
+                <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_tail_diameter_10">
+                  <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp/plant_10/root_size_tail_diameter_10:label')"/>
+                </input>
+              </group>
+            </group>
+            <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/vine_weight_pp">
+              <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/vine_weight_pp:label')"/>
+            </input>
+            <input ref="/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp_comment">
+              <label ref="jr:itext('/Root_Virus_Experiment/root_eval_grp/institution/plot_number/size_estimation_grp_comment:label')"/>
+            </input>
+          </group>
+        </repeat>
+      </group>
+    </group>
+    <input ref="/Root_Virus_Experiment/geopoint">
+      <label ref="jr:itext('/Root_Virus_Experiment/geopoint:label')"/>
+      <hint>GPS coordinates can only be collected when outside.</hint>
+    </input>
+  </h:body>
+</h:html>

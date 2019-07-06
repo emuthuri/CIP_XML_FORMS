@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>SANDPONICS EXPERIEMENT 2 - VER 1</h:title>
+    <model>
+      <instance>
+        <SANDPONICS_EXPERIMENT_2_VER_1 id="SANDPONICS_EXPERIMENT_2_VER_1">
+          <starttime/>
+          <deviceid/>
+          <subscriberid/>
+          <simid/>
+          <devicephonenum/>
+          <time_group>
+            <data_collection_date/>
+            <dap/>
+            <number_of_pots/>
+          </time_group>
+          <repeat_count_count/>
+          <repeat_count jr:template="">
+            <Pot_Id>
+              <pot_no/>
+              <treat/>
+              <rep_no/>
+            </Pot_Id>
+            <plants_per_pot/>
+            <vine_internodal_length>
+              <vine_internodal_length_note/>
+              <internodal_length_1/>
+              <internodal_length_2/>
+              <internodal_length_3/>
+              <internodal_length_4/>
+              <internodal_length_5/>
+            </vine_internodal_length>
+            <leaf_area>
+              <leaf_area_note/>
+              <leaf_length_1/>
+              <leaf_width_1/>
+              <leaf_length_2/>
+              <leaf_width_2/>
+              <leaf_length_3/>
+              <leaf_width_3/>
+              <leaf_length_4/>
+              <leaf_width_4/>
+              <leaf_length_5/>
+              <leaf_width_5/>
+            </leaf_area>
+            <petiole_length>
+              <petiole_length_note/>
+              <petiole_length_1/>
+              <petiole_length_2/>
+              <petiole_length_3/>
+              <petiole_length_4/>
+              <petiole_length_5/>
+            </petiole_length>
+            <lateral_branches>
+              <lateral_branches_note/>
+              <lateral_branches_1/>
+              <lateral_branches_2/>
+              <lateral_branches_3/>
+              <lateral_branches_4/>
+              <lateral_branches_5/>
+            </lateral_branches>
+            <harvest_vine_length>
+              <vine_length_note/>
+              <vine_length_1/>
+              <vine_length_2/>
+              <vine_length_3/>
+              <vine_length_4/>
+              <vine_length_5/>
+            </harvest_vine_length>
+            <nodes_per_vine>
+              <nodes_note/>
+              <nodes_per_vine_1/>
+              <nodes_per_vine_2/>
+              <nodes_per_vine_3/>
+              <nodes_per_vine_4/>
+              <nodes_per_vine_5/>
+            </nodes_per_vine>
+            <vine_weight_pp/>
+            <end_note/>
+          </repeat_count>
+          <endtime/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </SANDPONICS_EXPERIMENT_2_VER_1>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/starttime" type="dateTime"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/subscriberid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/simid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/devicephonenum" type="string"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/time_group/data_collection_date" required="true()" type="date"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/time_group/dap" required="true()" type="select1"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/time_group/number_of_pots" required="true()" type="int"/>
+      <bind calculate=" /SANDPONICS_EXPERIMENT_2_VER_1/time_group/number_of_pots " nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count_count" readonly="true()" type="string"/>
+      <bind jr:constraintMsg="Please scan for a valid pot number" nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/Pot_Id/pot_no" required="true()" type="barcode"/>
+      <bind calculate="pulldata('pots', 'treat', 'pot_number_key',  /SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/Pot_Id/pot_no )" nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/Pot_Id/treat" type="string"/>
+      <bind calculate="pulldata('pots', 'rep_number', 'pot_number_key',  /SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/Pot_Id/pot_no )" nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/Pot_Id/rep_no" type="string"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/plants_per_pot" required="true()" type="int"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/vine_internodal_length_note" readonly="true()" type="string"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/internodal_length_1" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/internodal_length_2" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/internodal_length_3" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/internodal_length_4" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/internodal_length_5" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_area_note" readonly="true()" type="string"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_length_1" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_width_1" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_length_2" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_width_2" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_length_3" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_width_3" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_length_4" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_width_4" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_length_5" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_width_5" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_note" readonly="true()" type="string"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_1" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_2" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_3" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_4" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_5" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_note" readonly="true()" type="string"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_1" required="true()" type="int"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_2" required="true()" type="int"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_3" required="true()" type="int"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_4" required="true()" type="int"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_5" required="true()" type="int"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_note" readonly="true()" type="string"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_1" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_2" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_3" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_4" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_5" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_note" readonly="true()" type="string"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_per_vine_1" required="true()" type="int"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_per_vine_2" required="true()" type="int"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_per_vine_3" required="true()" type="int"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_per_vine_4" required="true()" type="int"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_per_vine_5" required="true()" type="int"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_weight_pp" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/end_note" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/endtime" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="theme-grid">
+    <group appearance="field-list" ref="/SANDPONICS_EXPERIMENT_2_VER_1/time_group">
+      <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/time_group/data_collection_date">
+        <label>Date of Data collection</label>
+      </input>
+      <select1 ref="/SANDPONICS_EXPERIMENT_2_VER_1/time_group/dap">
+        <label>Please select the number of days after planting</label>
+        <item>
+          <label>42</label>
+          <value>42</value>
+        </item>
+        <item>
+          <label>84</label>
+          <value>84</value>
+        </item>
+        <item>
+          <label>126</label>
+          <value>126</value>
+        </item>
+        <item>
+          <label>168</label>
+          <value>168</value>
+        </item>
+        <item>
+          <label>210</label>
+          <value>210</value>
+        </item>
+        <item>
+          <label>252</label>
+          <value>252</value>
+        </item>
+      </select1>
+      <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/time_group/number_of_pots">
+        <label>How many pots are you taking readings from?</label>
+      </input>
+    </group>
+    <group ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count">
+      <label>Readings for pot <output value=" /SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/Pot_Id/pot_no "/></label><repeat jr:count=" /SANDPONICS_EXPERIMENT_2_VER_1/repeat_count_count " nodeset="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count">
+        <group appearance="field-list" ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/Pot_Id">
+          <label>Pot Id</label>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/Pot_Id/pot_no">
+            <label>Scan the QR code for this pot's number</label>
+          </input>
+        </group>
+        <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/plants_per_pot">
+          <label>Number of plants per pot</label>
+        </input>
+        <group appearance="field-list" ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length">
+          <label>Vine internodal length - <output value=" /SANDPONICS_EXPERIMENT_2_VER_1/time_group/dap "/> DAP</label>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/vine_internodal_length_note">
+            <label>Vine internodal lengths - <output value=" /SANDPONICS_EXPERIMENT_2_VER_1/time_group/dap "/> DAP</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/internodal_length_1">
+            <label>Vine internodal length - 1</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/internodal_length_2">
+            <label>Vine internodal length - 2</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/internodal_length_3">
+            <label>Vine internodal length - 3</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/internodal_length_4">
+            <label>Vine internodal length - 4</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_internodal_length/internodal_length_5">
+            <label>Vine internodal length - 5</label>
+          </input>
+        </group>
+        <group appearance="field-list" ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area">
+          <label>Leaf area - <output value=" /SANDPONICS_EXPERIMENT_2_VER_1/time_group/dap "/> DAP</label>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_area_note">
+            <label>Leaf area - <output value=" /SANDPONICS_EXPERIMENT_2_VER_1/time_group/dap "/> DAP</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_length_1">
+            <label>Leaf length 1</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_width_1">
+            <label>Leaf width 1</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_length_2">
+            <label>Leaf length 2</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_width_2">
+            <label>Leaf width 2</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_length_3">
+            <label>Leaf length 3</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_width_3">
+            <label>Leaf width 3</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_length_4">
+            <label>Leaf length 4</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_width_4">
+            <label>Leaf width 4</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_length_5">
+            <label>Leaf length 5</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/leaf_area/leaf_width_5">
+            <label>Leaf width 5</label>
+          </input>
+        </group>
+        <group appearance="field-list" ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length">
+          <label>Petiole length - <output value=" /SANDPONICS_EXPERIMENT_2_VER_1/time_group/dap "/> DAP</label>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_note">
+            <label>Petiole length - <output value=" /SANDPONICS_EXPERIMENT_2_VER_1/time_group/dap "/> DAP</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_1">
+            <label>Petiole length 1</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_2">
+            <label>Petiole length 2</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_3">
+            <label>Petiole length 3</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_4">
+            <label>Petiole length 4</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/petiole_length/petiole_length_5">
+            <label>Petiole length 5</label>
+          </input>
+        </group>
+        <group appearance="field-list" ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches">
+          <label>Lateral branches - <output value=" /SANDPONICS_EXPERIMENT_2_VER_1/time_group/dap "/> DAP</label>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_note">
+            <label>Lateral branches - <output value=" /SANDPONICS_EXPERIMENT_2_VER_1/time_group/dap "/> DAP</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_1">
+            <label>Lateral branches 1</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_2">
+            <label>Lateral branches 2</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_3">
+            <label>Lateral branches 3</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_4">
+            <label>Lateral branches 4</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/lateral_branches/lateral_branches_5">
+            <label>Lateral branches 5</label>
+          </input>
+        </group>
+        <group appearance="field-list" ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length">
+          <label>Vine length at harvest</label>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_note">
+            <label>Vine length at harvest</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_1">
+            <label>Vine length at harvest - 1</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_2">
+            <label>Vine length at harvest - 2</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_3">
+            <label>Vine length at harvest - 3</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_4">
+            <label>Vine length at harvest - 4</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/harvest_vine_length/vine_length_5">
+            <label>Vine length at harvest - 5</label>
+          </input>
+        </group>
+        <group appearance="field-list" ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine">
+          <label>No. of nodes per vine</label>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_note">
+            <label>No. of nodes per vine</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_per_vine_1">
+            <label>No. of nodes per vine - 1</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_per_vine_2">
+            <label>No. of nodes per vine - 2</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_per_vine_3">
+            <label>No. of nodes per vine - 3</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_per_vine_4">
+            <label>No. of nodes per vine - 4</label>
+          </input>
+          <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/nodes_per_vine/nodes_per_vine_5">
+            <label>No. of nodes per vine - 5</label>
+          </input>
+        </group>
+        <input ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/vine_weight_pp">
+          <label>Vine weight at harvest per pot</label>
+        </input>
+        <input appearance="multiline" ref="/SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/end_note">
+          <label>End of pot <output value=" /SANDPONICS_EXPERIMENT_2_VER_1/repeat_count/Pot_Id/pot_no "/> measurements. Optional comments</label>
+        </input>
+      </repeat>
+    </group>
+  </h:body>
+</h:html>

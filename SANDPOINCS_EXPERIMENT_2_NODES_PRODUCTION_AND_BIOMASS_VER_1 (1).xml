@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>SANDPONICS EXPERIMENT 2 - NODES PRODUCTION AND BIOMASS VER 1</h:title>
+    <model>
+      <instance>
+        <SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1 id="SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1">
+          <starttime/>
+          <deviceid/>
+          <subscriberid/>
+          <simid/>
+          <devicephonenum/>
+          <time_group>
+            <data_collection_date/>
+            <dap/>
+          </time_group>
+          <Pot_Id>
+            <pot_no/>
+            <treat/>
+            <rep_number/>
+          </Pot_Id>
+          <plants_per_pot/>
+          <nodes_grp>
+            <nodes_1/>
+            <nodes_2/>
+            <nodes_3/>
+            <nodes_4/>
+            <nodes_5/>
+            <nodes_6/>
+            <nodes_7/>
+            <nodes_8/>
+            <nodes_9/>
+            <nodes_10/>
+          </nodes_grp>
+          <weight/>
+          <end_note/>
+          <endtime/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/starttime" type="dateTime"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/subscriberid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/simid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/devicephonenum" type="string"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/data_collection_date" required="true()" type="date"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap" required="true()" type="select1"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/Pot_Id/pot_no" required="true()" type="barcode"/>
+      <bind calculate="pulldata('pots', 'treat', 'pot_number_key',  /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/Pot_Id/pot_no )" nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/Pot_Id/treat" type="string"/>
+      <bind calculate="pulldata('pots', 'rep_number', 'pot_number_key',  /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/Pot_Id/pot_no )" nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/Pot_Id/rep_number" type="string"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/plants_per_pot" required="true()" type="int"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_1" required="true()" type="int"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_2" required="true()" type="int"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_3" required="true()" type="int"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_4" required="true()" type="int"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_5" required="true()" type="int"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_6" required="true()" type="int"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_7" required="true()" type="int"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_8" required="true()" type="int"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_9" required="true()" type="int"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_10" required="true()" type="int"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/weight" required="true()" type="decimal"/>
+      <bind nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/end_note" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/endtime" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="theme-grid">
+    <group appearance="field-list" ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group">
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/data_collection_date">
+        <label>Date of Data collection</label>
+      </input>
+      <select1 ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap">
+        <label>Please select the number of days after planting</label>
+        <item>
+          <label>42</label>
+          <value>42</value>
+        </item>
+        <item>
+          <label>84</label>
+          <value>84</value>
+        </item>
+        <item>
+          <label>126</label>
+          <value>126</value>
+        </item>
+        <item>
+          <label>168</label>
+          <value>168</value>
+        </item>
+        <item>
+          <label>210</label>
+          <value>210</value>
+        </item>
+        <item>
+          <label>252</label>
+          <value>252</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/Pot_Id">
+      <label>Pot Id</label>
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/Pot_Id/pot_no">
+        <label>Scan the QR code for this pot's number</label>
+      </input>
+    </group>
+    <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/plants_per_pot">
+      <label>Number of plants in pot <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/Pot_Id/pot_no "/></label></input>
+    <group appearance="field-list" ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp">
+      <label>No.of nodes</label>
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_1">
+        <label>No. of nodes per vine <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap "/> DAP 1</label>
+      </input>
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_2">
+        <label>No. of nodes per vine <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap "/> DAP 2</label>
+      </input>
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_3">
+        <label>No. of nodes per vine <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap "/> DAP 3</label>
+      </input>
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_4">
+        <label>No. of nodes per vine <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap "/> DAP 4</label>
+      </input>
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_5">
+        <label>No. of nodes per vine <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap "/> DAP 5</label>
+      </input>
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_6">
+        <label>No. of nodes per vine <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap "/> DAP 6</label>
+      </input>
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_7">
+        <label>No. of nodes per vine <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap "/> DAP 7</label>
+      </input>
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_8">
+        <label>No. of nodes per vine <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap "/> DAP 8</label>
+      </input>
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_9">
+        <label>No. of nodes per vine <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap "/> DAP 9</label>
+      </input>
+      <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/nodes_grp/nodes_10">
+        <label>No. of nodes per vine <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/time_group/dap "/> DAP 10</label>
+      </input>
+    </group>
+    <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/weight">
+      <label>Weight of vines in pot <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/Pot_Id/pot_no "/></label></input>
+    <input ref="/SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/end_note">
+      <label>End of pot <output value=" /SANDPOINCS_EXPERIMENT_2_NODES_PRODUCTION_AND_BIOMASS_VER_1/Pot_Id/pot_no "/> measurements. Optional comments</label>
+    </input>
+  </h:body>
+</h:html>
